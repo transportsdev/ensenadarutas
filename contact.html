@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Contacto - Tecnicos Independientes</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <style>body{padding-top:50px;}.starter-template{padding:45px 15px;text-align:center;}.aFuerzas{color:red;}.alerta-roja{display:none;}
+	.customjumbotron{
+
+  box-shadow: 1.5vh 2vw 2vh #eee;
+  background-color: #79d4ff; /* For browsers that do not support gradients */
+  //background: -webkit-linear-gradient(#79d4ff , #3a8cd8); /* For Safari 5.1 to 6.0 */
+  //background: -o-linear-gradient(#79d4ff, #3a8cd8); /* For Opera 11.1 to 12.0 */
+  //background: -moz-linear-gradient(#79d4ff, #3a8cd8); /* For Firefox 3.6 to 15 */
+  //background: linear-gradient( #79d4ff , #c9e9ff); /* Standard syntax */
+	
+	}
+	.mainrowone {
+  background-color: rgb(251,251,251); 
+
+
+	}
+	.post-it {
+background:#fefabc; 
+padding:5vh 5vw 8vh 3vw; 
+font-family: 'Gloria Hallelujah', cursive; 
+font-size:20px !important; 
+ 
+color: #000; 
+
+
+-moz-transform: rotate(2deg);
+-webkit-transform: rotate(2deg);
+-o-transform: rotate(2deg);
+-ms-transform: rotate(2deg);
+transform: rotate(2deg);
+
+box-shadow: 0px 4px 6px #333;
+-moz-box-shadow: 0px 4px 6px #333;
+-webkit-box-shadow: 0px 4px 6px #333;
+
+}
+	</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+                  <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="..."><!--<a class="navbar-brand" href="#">TI</a>-->
+                  </a>
+             
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                    <li class="active"><a href="#contact">Contacto</a></li>
+                </ul>
+            </div><!--.nav-collapse -->
+        </div>
+    </nav>
+<div class="container-fluid mainrowone">
+    <div class="container" style="background-color:#fff;padding:1vh 2vw">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron text-center customjumbotron">
+                    <h2>Tu opinion nos ayuda a mejorar!</h2><p>Rellena los campos si tienes algun comentario, duda o sugerencia.</p>
+                </div>
+				</div>
+			</div>
+
+<!-- Inicia la forma // Agregar text-reader support-->
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 alerta-roja">
+				<div class="alert alert-danger dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Parece que algo salio mal!</strong>&nbsp&nbspIntenta llenar los campos faltantes</div>
+			</div>
+			</div>
+            <div class="row" style="margin-top:3vh">
+                <div class="col-md-3 col-sm-1"></div>
+                     <div class="col-md-9 col-sm-11">
+                     
+                      <form class="form-horizontal" id="myForm">
+					  
+                         <div class="form-group has-feedback">
+                            <label for="inputName" class="col-sm-2 control-label">Nombre <span class="aFuerzas">*</span></label>
+                            <div class="col-md-5 col-sm-7" data-toggle="popover" title="" data-content="Este campo no puede estar vacio">
+                            <input type="text" class="form-control" maxlength="50" id="inputNameForm" placeholder="Jane Doe"><span class="state-icon"></span>
+                            </div>
+                          </div>
+						  
+                          <div class="form-group has-feedback">  
+                            <label for="inputEmail" class="col-sm-2 control-label">Email <span class="aFuerzas">*</span></label>
+                            <div class="col-md-5 col-sm-7" data-toggle="popover" title="" data-content="Este campo no puede estar vacio">
+                                  <input type="email" class="form-control" id="inputEmail" maxlength="80" placeholder="janedoe@ejemplo.com"><span class="state-icon"></span>
+                            </div>
+                          </div>
+                          
+                          <div class="form-group has-feedback">
+                            <label for="inputTelephone" class="col-sm-2 control-label">Telefono <span class="aFuerzas">*</span></label>
+                            <div class="col-sm-3">
+                            <input type="text" class="form-control" id="inputTelephone" maxlength="15" placeholder="646-175-46-54" data-toggle="popover" title="" data-content="Este campo no puede estar vacio"><span></span>                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="inputCheckCel" value="celularyes">
+                                    ¿Es celular?
+                                </label>
+                            </div>
+
+                          </div>
+
+                          <div class="form-group">  
+                            <label for="inputComments" class="col-sm-2 control-label">Comentarios</label>
+                            <div class="col-md-5 col-sm-7">
+                                  <textarea class="form-control" id="comments" maxlength="500" cols="30" rows="5"></textarea>
+                            </div>
+                          </div>
+
+                               
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                  <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h3 class="modal-title" id="myModalLabel">Su nueva cita se ha generado<p><small>Copia y pega este formato en un nuevo correo para que podamos comunicarnos contigo</small></p></h3>
+                                      </div>
+                                      <div class="modal-body">
+											<div class="col-sm-8 col-md-offset-2 post-it">
+                                        <div class="row">
+											<div class="col-sm-12">
+												<h3 id="modalName"><span></span></h3>
+											</div>
+											</div>
+											<div class="row">
+											<div class="col-sm-6">
+												<h4 id="modalEmail"><span></span></h4>
+											</div>
+											</div>
+											<div class="row">
+											<div class="col-sm-6">
+												<h4 id="modalTel"><span></span></h4>
+											</div>
+											
+											</div>
+                                        <div class="row">
+											<div class="col-sm-12">
+												<h4 id="modalComment"><span></span></h4>
+											</div>
+											</div>
+											</div>
+											
+										</div>
+                                      <div class="modal-footer">
+											<div class="row">
+											<div class="col-sm-12">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Salir</button></div>
+                                      </div></div>
+                                    </div>
+                                  </div>
+                                </div>
+								
+                          <div class="col-sm-offset-4 col-md-offset-3">
+                          
+                           <button class="btn btn-primary" type="button" id="btnCita">Generar cita</button>
+                            
+                              <script type="text/javascript">
+								
+									$('#myForm input').blur(function()
+										{
+											if( !$(this).val() ) {
+												  $(this).parent().popover('show').find('span').replaceWith('<span class="glyphicon glyphicon-remove form-control-feedback state-icon"></span>');
+												  $(this).parents(".form-group").removeClass('has-success').addClass('has-error');
+											}else{
+												$(this).parent().popover('destroy').find('span').replaceWith('<span class="glyphicon glyphicon-ok form-control-feedback state-icon"></span>');
+												$(this).parents(".form-group").removeClass('has-error').addClass('has-success');
+												
+												
+											}
+										});
+                                    $('#btnCita').click(function() {
+									if($('#inputNameForm').val()&&$('#inputEmail').val()&&$('#inputTelephone').val()){
+										$('.alerta-roja').fadeOut();
+										$('#myModal').modal('toggle');
+										var name = $('#inputNameForm').val();
+										var email = $('#inputEmail').val();
+										var tel = $('#inputTelephone').val();
+										if($('#inputCheckCel').is(':checked')) {
+										
+											tel="Celular: "+tel;
+										}
+										var comments = $('#comments').val();
+
+										
+                                       $('#modalName span').replaceWith("<span>De: "+name+"</span>")
+									   $('#modalTel span').replaceWith("<span>"+tel+"</span>")
+                                       $('#modalEmail span').replaceWith("<span>"+email+"</span>")
+                                       $('#modalComment span').replaceWith("<span>"+comments+"</span>")
+									   }else{
+									   $('.alerta-roja').fadeIn(1100);
+									   
+									   }
+                                    });
+                              
+                              </script>
+                          </div>
+                           <p style="margin-top:2vh"><span class="aFuerzas">*</span> <strong>Campo obligatorio</strong></p>
+                      </form>
+                    
+
+<!--Termina la forma-->
+
+  
+            </div>
+        </div>
+		
+    </div>
+</div>
+
+</body>
+</html>
